@@ -6,8 +6,6 @@ Using a free API with PHP, general information about your mobile number is retri
 Each user must have an API key for this project to work. Please create a user account <a href="https://rapidapi.com/">here</a> and write down your API key.
 Then login to your account and go to the site <a href="https://rapidapi.com/larroyouy70/api/phonenumbervalidatefree/">here</a> then copy the key in the "X-RapidAPI-Key" section.
 
---- FOTOĞRAF EKLENECEK ---
-
 <img src="api_key.png">
 
 --- FOTOĞRAF EKLENECEK --
