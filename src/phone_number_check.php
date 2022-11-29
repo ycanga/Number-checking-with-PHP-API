@@ -16,9 +16,8 @@ curl_setopt_array($curl, [
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => [
-        "X-RapidAPI-Host: phonenumbervalidatefree.p.rapidapi.com", // 
-        "X-RapidAPI-Key: YOUR-API-KEY"
-        // Please sign up and get API key from the link I gave in the description. Otherwise the API will not work.
+        "X-RapidAPI-Host: phonenumbervalidatefree.p.rapidapi.com",
+        "X-RapidAPI-Key: 4af258ff08mshe7fe29f940c5294p12e13ejsn5a3d8ec6077e"
     ],
 ]);
 
@@ -47,12 +46,13 @@ else {
 
 <!-- Default form head -->
 <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 
 <!-- Default form input -->
 <body class="bg-dark text-white" >
-    <div class="container">
+    <div class="container-md">
         <!-- Notifications are made, such as error messages resulting from the query. -->
         <?php echo $request;?>
         <form class="text-center p-5" action="" method="Post">
@@ -90,8 +90,10 @@ else {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
 </body>
-<footer>
-    <div class="container-fluid footer fixed-bottom border-top border-white p-3 text-center mt-5">
-        Designed by <b ><a href="https://github.com/ycanga" style="color:#131313; text-decoration: none;">Yunus Emre Canğa</a> | <a href="https://4lphasoftware.com" style="color:#ffb600; text-decoration: none;">4LPHA Software</a></b>
-    </div>
+<footer class="fixed-bottom fluid bg-transparent text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+   Designed by <b ><a href="https://github.com/ycanga" style="color:#131313; text-decoration: none;">Yunus Emre Canğa</a> | <a href="https://4lphasoftware.com" style="color:#ffb600; text-decoration: none;">4LPHA Software</a></b>
+  </div>
+  <!-- Copyright -->
 </footer>
