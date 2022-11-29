@@ -17,7 +17,7 @@ curl_setopt_array($curl, [
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => [
         "X-RapidAPI-Host: phonenumbervalidatefree.p.rapidapi.com",
-        "X-RapidAPI-Key: 4af258ff08mshe7fe29f940c5294p12e13ejsn5a3d8ec6077e"
+        "X-RapidAPI-Key: YOUR-API-KEY"
     ],
 ]);
 
