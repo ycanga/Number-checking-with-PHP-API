@@ -14,6 +14,12 @@ After these operations, we paste the copied key into the "X-RapidAPI-Key" sectio
 
 You can save all changes and upload your "phone_number_check.php" file to your Hosting from media such as FTP. The final version of your project will be as follows.
 
---- FOTOĞRAF EKLENECEK ---
+<img src="number_check_1.png">
+
+
+<img src="number_check_2.png">
+
+
+<img src="number_check_3.png">
 
 For this and more projects like this, you can follow me <a href="https://github.com/ycanga">here</a>. Good luck.
