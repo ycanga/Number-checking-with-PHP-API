@@ -10,7 +10,7 @@ Then login to your account and go to the site <a href="https://rapidapi.com/larr
 
 After these operations, we paste the copied key into the "X-RapidAPI-Key" section in the "phone_number_check.php" file.
 
---- FOTOĞRAF EKLENECEK --
+<img src="api_key_code.png">
 
 You can save all changes and upload your "phone_number_check.php" file to your Hosting from media such as FTP. The final version of your project will be as follows.
 
